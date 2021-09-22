@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+main()
+{
+	int e[5],i;
+	int* p;
+	cout<<"Enter elements"<<endl;
+	for(i=0;i<5;i++)
+	{
+		cin>>e[i];
+	}
+	p=e;
+	cout<<"You Entered"<<endl;
+	for(i=0;i<5;i++)
+	{
+		cout<<*p<<endl;
+		p++;
+	}
+}
